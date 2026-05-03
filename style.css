@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+header {
+  width: 100%;
+  height: 64px;
+  position: fixed;
+  background-color: #ffffffcc;
+}
+header .head {
+  width: 90%;
+  height: 64px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.head p {
+  font-weight: 700;
+  font-size: 20px;
+  color: #18181b;
+}
+.head .sslki {
+  width: 40%;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sslki a {
+  height: 26px;
+  font-size: 14px;
+  color: #52525b;
+  font-weight: 500;
+  text-decoration: none;
+}
+.sslki a:nth-child(1) {
+  color: #2563eb;
+  border-bottom: 2px solid #2563eb;
+}
+header .button {
+  width: 15%;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.button button:nth-child(1) {
+  width: 38%;
+  height: 20px;
+  background-color: inherit;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: #52525b;
+}
+.button button:nth-child(1):hover {
+  color: #18181b;
+}
+.button button:nth-child(2) {
+  width: 60%;
+  height: 34px;
+  background-color: #2563eb;
+  border-radius: 20px;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+}
+.button button:nth-child(2):active {
+  transform: scale(0.95);
+}

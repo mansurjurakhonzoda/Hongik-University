@@ -398,3 +398,48 @@ main section:nth-child(4) {
   transform: scale(1.05);
   transition: all 90ms ease 10ms;
 }
+main section:nth-child(5) {
+  width: 90%;
+  height: 144px;
+  padding: 64px 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+}
+.informat {
+  width: 20%;
+  height: 144px;
+}
+.informat:nth-child(1) p:nth-child(1) {
+  font-weight: 700;
+  font-size: 20px;
+  color: #18181b;
+  margin-bottom: 24px;
+}
+.informat:nth-child(1) p:nth-child(2) {
+  font-weight: 500;
+  font-size: 14px;
+  color: #71717a;
+  line-height: 150%;
+}
+.informat ul {
+  list-style: none;
+  padding: 0;
+}
+.informat ul p {
+  font-size: 16px;
+  color: #1a1c1c;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+.informat ul li {
+  font-size: 14px;
+  color: #71717a;
+  font-weight: 500;
+  margin-top: 8px;
+}
+.informat ul li:hover {
+  color: #2563eb;
+}

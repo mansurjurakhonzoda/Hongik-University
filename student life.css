@@ -352,3 +352,54 @@ section:nth-child(3) form button {
 section:nth-child(3) form button:hover {
   background-color: #0f19a9;
 }
+main section:nth-child(4) {
+  width: 90%;
+  height: 96px;
+  padding: 64px 5%;
+  border-top: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+}
+.info {
+  width: 20%;
+  height: 96px;
+}
+.info p:nth-child(1) {
+  font-size: 16px;
+  color: #18181b;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.info p:nth-child(2) {
+  font-size: 12px;
+  font-weight: 400;
+  color: #71717a;
+  line-height: 150%;
+  margin-bottom: 16px;
+}
+.thekond p:nth-child(1) {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.thekond p:nth-child(2):hover {
+  color: #2563eb;
+}
+.thekond p:nth-child(3):hover {
+  color: #2563eb;
+}
+.thekond p:nth-child(3) {
+  font-size: 12px;
+  font-weight: 400;
+  color: #71717a;
+  line-height: 150%;
+  margin-bottom: 16px;
+}
+.thekond svg {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  color: #a1a1aa;
+}
+.thekond svg:hover {
+  color: #2563eb;
+}

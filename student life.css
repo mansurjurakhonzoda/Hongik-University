@@ -104,3 +104,163 @@ h1 {
   color: #e4e4e7;
   line-height: 130%;
 }
+main section:nth-child(2) {
+  width: 90%;
+  height: 590px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-between;
+}
+.obshezhitie {
+  width: 65%;
+  height: 278px;
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.obshezhitie img {
+  width: 100%;
+  height: 290px;
+  position: absolute;
+}
+.obshezhitie img:hover {
+  transform: scale(1.09);
+  transition: all 1s ease 10ms;
+}
+.about {
+  width: 82%;
+  height: 64px;
+  padding: 32px;
+  position: absolute;
+  top: 150px;
+}
+.aboutname {
+  width: 29%;
+  height: 31px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.aboutname svg {
+  width: 24px;
+  height: 24px;
+  color: white;
+}
+.aboutname h3 {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 700;
+}
+.about p {
+  font-size: 15px;
+  color: #e4e4e7;
+}
+.club {
+  width: 26%;
+  height: 214px;
+  border-radius: 20px;
+  padding: 32px;
+  border: 1px solid #ccc;
+}
+.club svg {
+  width: 30px;
+  height: 36px;
+  margin-bottom: 16px;
+}
+.club h3 {
+  font-size: 24px;
+  color: #1a1c1c;
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+.club p {
+  font-size: 16px;
+  color: #71717a;
+  font-weight: 500;
+  line-height: 150%;
+}
+.iconki {
+  width: 100%;
+  height: 40px;
+  position: relative;
+}
+.iconki img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+}
+.iconki img:nth-child(2) {
+  left: 30px;
+}
+.iconki img:nth-child(3) {
+  left: 60px;
+}
+.kampus {
+  width: 29%;
+  height: 278px;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.kampus img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.kampas {
+  width: 81%;
+  height: 80%;
+  padding: 32px;
+  position: absolute;
+  z-index: 1;
+  background-color: #cacacab8;
+}
+.kampas:hover {
+  background-color: inherit;
+  transition: all 1s ease 10ms;
+}
+.kampas h3 {
+  font-size: 24px;
+  color: #1a1c1c;
+  font-weight: 700;
+  margin-top: 65%;
+}
+.kampas p {
+  font-size: 14px;
+  color: #27272a;
+  font-weight: 700;
+}
+.meropriatia {
+  width: 67%;
+  height: 278px;
+  display: flex;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+}
+.meropriatie {
+  width: 42%;
+  height: 76%;
+  padding: 32px;
+}
+.meropriatie svg {
+  width: 30px;
+  height: 36px;
+  margin-bottom: 8px;
+}
+.meropriatie h3 {
+  font-size: 24px;
+  color: #1a1c1c;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.meropriatie p {
+  font-size: 16px;
+  color: #71717a;
+  font-weight: 500;
+  line-height: 150%;
+}

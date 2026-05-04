@@ -295,3 +295,60 @@ main section:nth-child(2) {
   transform: scale(1.09);
   transition: all 1s ease 10ms;
 }
+main section:nth-child(3) {
+  width: 84%;
+  height: 120px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  margin: auto;
+  margin-bottom: 150px;
+  padding: 48px;
+  background-color: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.be {
+  width: 48%;
+  height: 120px;
+}
+.be h2 {
+  font-size: 40px;
+  color: #1a1c1c;
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+.be p {
+  font-size: 16px;
+  color: #71717a;
+  font-weight: 500;
+  line-height: 150%;
+}
+main section:nth-child(3) form {
+  width: 48%;
+  height: 120px;
+}
+section:nth-child(3) form input {
+  width: 96%;
+  height: 50px;
+  border: 1px solid #ccc;
+  border-radius: 0;
+  padding: 0 2%;
+  font-size: 16px;
+  color: #ccc;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+section:nth-child(3) form button {
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  background-color: #000a9e;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 500;
+}
+section:nth-child(3) form button:hover {
+  background-color: #0f19a9;
+}

@@ -101,3 +101,153 @@ section:nth-child(1) p {
   color: #454556;
   line-height: 150%;
 }
+main section:nth-child(2) {
+  width: 90%;
+  height: 940px;
+  margin: auto;
+  margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-between;
+}
+.desighn {
+  width: 760px;
+  height: 632px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+.desighn:hover {
+  border: 1px solid #004883;
+}
+.desighn img {
+  width: 100%;
+  height: 400px;
+}
+.desighn img:hover {
+  transform: scale(1.09);
+  transition: all 1s ease 10ms;
+}
+.text {
+  width: 678px;
+  height: 150px;
+  padding: 40px;
+}
+.about {
+  width: 100%;
+  height: 78px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.abot {
+  width: 320px;
+  height: 78px;
+}
+h3 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #1a1c1c;
+  margin-bottom: 8px;
+}
+.abot span {
+  padding: 4px 12px;
+  color: #000a9e;
+  background-color: #e0e0ff4d;
+  font-size: 12px;
+  margin-right: 8px;
+  border-radius: 10px;
+}
+.about svg {
+  width: 36px;
+  height: 40px;
+}
+.text p {
+  font-size: 16px;
+  color: #454556;
+  line-height: 150%;
+  margin-top: 24px;
+}
+.architeckt {
+  width: 366px;
+  height: 632px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+.architeckt:hover {
+  border: 1px solid #004883;
+}
+.architeckt img {
+  width: 100%;
+  height: 477px;
+}
+.architeckt img:hover {
+  transform: scale(1.09);
+  transition: all 1s ease 10ms;
+}
+.arch {
+  width: 318px;
+  height: 167px;
+  padding: 24px;
+}
+.arch svg {
+  width: 24px;
+  height: 24px;
+}
+.arch h3 {
+  font-size: 24px;
+}
+.arch p {
+  margin-top: 10px;
+}
+.art {
+  width: 564px;
+  height: 283px;
+  display: flex;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+}
+.art:hover {
+  border: 1px solid #000a9e;
+}
+.art img {
+  width: 281px;
+  height: 281px;
+}
+.art img:hover {
+  transform: scale(1.09);
+  transition: all 1s ease 10ms;
+}
+.iscustvo {
+  width: 201px;
+  height: 32px;
+  padding: 40px;
+}
+.iscustvo h3 {
+  font-size: 24px;
+}
+.iscustvo p {
+  margin-top: 10px;
+}
+.media {
+  width: 564px;
+  height: 283px;
+  display: flex;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+}
+.media:hover {
+  border: 1px solid #000a9e;
+}
+.media img {
+  width: 290px;
+  height: 290px;
+}
+.media img:hover {
+  transform: scale(1.09);
+  transition: all 1s ease 10ms;
+}

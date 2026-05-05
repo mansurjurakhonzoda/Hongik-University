@@ -140,7 +140,7 @@ section:nth-child(1) .knopki button:nth-child(2) {
   border-radius: 15px;
 }
 section:nth-child(1) .knopki button:nth-child(2):hover {
-  background-color: #dae9fa;
+  background-color: #0060ac0d;
 }
 main section:nth-child(2) {
   width: 100%;

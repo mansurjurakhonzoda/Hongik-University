@@ -301,3 +301,14 @@ main section:nth-child(2) {
   background-color: #0060ac;
   color: #fff;
 }
+footer {
+  width: 90%;
+  height: 21px;
+  padding: 32px 24px;
+  border-top: 1px solid #ccc;
+  margin: auto;
+}
+.end {
+  font-size: 14px;
+  color: #71717b;
+}

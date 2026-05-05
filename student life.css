@@ -352,7 +352,7 @@ section:nth-child(3) form button {
 section:nth-child(3) form button:hover {
   background-color: #0f19a9;
 }
-main section:nth-child(4) {
+footer {
   width: 90%;
   height: 96px;
   padding: 64px 5%;

@@ -185,3 +185,36 @@ main section:nth-child(3) img {
   height: 312px;
   border-radius: 20px;
 }
+main section:nth-child(4) {
+  width: 90%;
+  height: 312px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+main section:nth-child(4) img {
+  width: 50%;
+  height: 312px;
+  border-radius: 20px;
+}
+main section:nth-child(4) .text {
+  width: 48%;
+  height: 282px;
+}
+.text button {
+  width: 282px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid #2563eb;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #0060ac;
+  margin-top: 24px;
+}
+.text button:hover {
+  background-color: #0060ac0d;
+}

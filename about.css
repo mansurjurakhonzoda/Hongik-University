@@ -104,3 +104,43 @@ main section:nth-child(1) img {
   height: 420px;
   border-radius: 20px;
 }
+main section:nth-child(2) {
+  width: 90%;
+  height: 218px;
+  margin: auto;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about {
+  width: 25%;
+  height: 138px;
+  padding: 40px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+.about:hover {
+  border: 1px solid #2563eb;
+}
+.about svg {
+  width: 36px;
+  height: 40px;
+  color: #0060ac;
+  margin-left: 44%;
+  margin-bottom: 8px;
+}
+.about h3 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #454556;
+  margin-top: 8px;
+  text-align: center;
+}
+.about p {
+  font-size: 40px;
+  font-weight: 700;
+  color: #1a1c1c;
+  margin-top: 8px;
+  text-align: center;
+}

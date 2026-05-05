@@ -251,3 +251,14 @@ h3 {
   transform: scale(1.09);
   transition: all 1s ease 10ms;
 }
+footer {
+  width: 90%;
+  height: 21px;
+  padding: 32px 24px;
+  border-top: 1px solid #ccc;
+  margin: auto;
+}
+.end {
+  font-size: 14px;
+  color: #71717b;
+}

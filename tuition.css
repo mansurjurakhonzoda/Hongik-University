@@ -243,3 +243,15 @@ form button:hover {
   border-radius: 20px;
   margin-top: 24px;
 }
+footer {
+  width: 90%;
+  height: 21px;
+  padding: 32px 24px;
+  border-top: 1px solid #ccc;
+  margin: auto;
+  margin-top: 50px;
+}
+.end {
+  font-size: 14px;
+  color: #71717b;
+}

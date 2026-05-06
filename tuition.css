@@ -93,3 +93,153 @@ section:nth-child(1) p {
   color: #454556;
   line-height: 150%;
 }
+main section:nth-child(2) {
+  width: 90%;
+  height: 736px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.one {
+  width: 582px;
+  height: 656px;
+  padding: 40px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+.one:hover {
+  border: 1px solid #2563eb;
+}
+.first {
+  width: 580px;
+  height: 82px;
+  display: flex;
+  justify-content: space-between;
+}
+.thekond {
+  width: 278px;
+  height: 82px;
+}
+label {
+  font-size: 12px;
+  color: #1a1c1c;
+}
+input {
+  width: 278px;
+  height: 25px;
+  padding: 12px 0;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  font-size: 16px;
+  color: #454556;
+  font-weight: 600;
+  margin-top: 8px;
+}
+.third {
+  width: 580px;
+  height: 161px;
+  margin-top: 24px;
+  padding-top: 16px;
+}
+.third input {
+  width: 580px;
+  height: 97px;
+  margin-top: 8px;
+}
+form button {
+  width: 163px;
+  height: 48px;
+  padding: 16px 32px;
+  border-radius: 40px;
+  background-color: #2e2e2e;
+  color: #fff;
+  font-size: 14px;
+  border: none;
+}
+form button:hover {
+  transform: scale(1.09);
+  transition: all 1s ease 10ms;
+}
+.two {
+  width: 466px;
+  height: 736px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+.svyaz {
+  width: 386px;
+  height: 167px;
+  padding: 40px;
+  border-radius: 20px;
+  background-color: #0009ae;
+}
+.svyaz h3 {
+  font-size: 24px;
+  margin-bottom: 24px;
+  color: #fff;
+  font-weight: 700;
+}
+.svaz {
+  width: 200px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.svaz svg {
+  width: 30px;
+  height: 30px;
+  color: white;
+}
+.svaz a {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+.svaz a:hover {
+  text-decoration: underline;
+}
+.seti {
+  width: 386px;
+  height: 105px;
+  padding: 40px;
+  border-radius: 20px;
+  margin-top: 24px;
+  border: 1px solid #ccc;
+}
+.seti:hover {
+  border: 1px solid #0009ae;
+}
+.seti h3 {
+  font-size: 24px;
+  margin-bottom: 24px;
+  color: #1a1c1c;
+  font-weight: 700;
+}
+.icons {
+  width: 240px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.icons svg {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  color: #0060ac;
+}
+.icons svg:hover {
+  border: 1px solid #0060ac;
+  background-color: #0060ac;
+  color: white;
+}
+.map {
+  width: 466px;
+  height: 256px;
+  border-radius: 20px;
+  margin-top: 24px;
+}
